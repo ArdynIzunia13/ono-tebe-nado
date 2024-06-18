@@ -1,19 +1,39 @@
-header {
-    width: 1052px;
-    height: 105px;
-    top: 92px;
-    left: 24px;
-    margin: 92px 24px 0 24px;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 92px 24px 96px 24px;
 }
 .header_logo {
-    display: grid;
-    justify-content: center;
-
+    position: relative;
+    left: 454px;
+    right: 450px;
 }
 .header_logo-image {
     width: 148px;
-    left: 454px;
- }
+    height: 105px;
+}
+.header_nav {
+    margin-right: auto;
+}
+.header_nav-list {
+    display: flex;
+    list-style: circle;
+    column-gap: 13px;
+}
+.header_nav-link {
+    
+}
+
+    
+    
+    
+    
+    
+
+
+   
+ 
     
 
  
