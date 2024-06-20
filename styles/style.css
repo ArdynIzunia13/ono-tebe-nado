@@ -5,26 +5,63 @@
     margin: 92px 24px 96px 24px;
 }
 .header_logo {
-    position: relative;
-    left: 454px;
-    right: 450px;
+    display: grid;
+   
 }
 .header_logo-image {
     width: 148px;
     height: 105px;
 }
 .header_nav {
-    margin-right: auto;
+    display: flex;
+    
+    
 }
 .header_nav-list {
     display: flex;
     list-style: circle;
     column-gap: 13px;
 }
-.header_nav-link {
+.main {
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+    Width: 1100px;
+    Height: 757px;
+    top: 293px;
+}
+.cover_title {
+    padding: 165px 50px 50px;
+    width: 1100px;
+    font-family: Raleway;
+}
+    
+.title_span-left {
+    display: block;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 115px;
+    letter-spacing: 0.3em;
+    text-align: left;
+}
+.title_span-center {
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.3em;
     
 }
-
+.title_span-right {
+    display: block;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.6em;
+    text-align: right;
+    
+}
     
     
     
