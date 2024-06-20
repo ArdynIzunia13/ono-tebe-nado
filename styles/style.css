@@ -1,26 +1,34 @@
 .header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    max-width: 1052px;
+    justify-content: space-between;
     margin: 92px 24px 96px 24px;
-}
-.header_logo {
-    display: grid;
-   
+
 }
 .header_logo-image {
-    width: 148px;
-    height: 105px;
+    width: 124.05px;
+    height: 94.84px;
+    top: 2.79px;
+    left: 11.39px;
+    gap: 0px;
+    border: 6px 0px 0px 0px;
+    opacity: 0px;
 }
 .header_nav {
-    display: flex;
-    
-    
+    margin-right: 32px;
 }
 .header_nav-list {
     display: flex;
+    list-style-type: none;
+}
+.header_nav-item {
+    margin-left: 32px;
     list-style: circle;
-    column-gap: 13px;
+}
+.header_nav-items {
+    margin-left: 32px;
+    list-style-type: none;
 }
 .main {
     background-image: url(../images/cover.jpg);
