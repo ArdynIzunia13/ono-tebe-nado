@@ -7,13 +7,8 @@
 
 }
 .header_logo-image {
-    width: 124.05px;
-    height: 94.84px;
-    top: 2.79px;
-    left: 11.39px;
-    gap: 0px;
-    border: 6px 0px 0px 0px;
-    opacity: 0px;
+    width: 124px;
+    height: 94px;
 }
 .header_nav {
     margin-right: 32px;
@@ -30,30 +25,31 @@
     margin-left: 32px;
     list-style-type: none;
 }
-.main {
+.cover {
     background-image: url(../images/cover.jpg);
-    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 165px 50px 50px;
     color: #fff;
-    Width: 1100px;
-    Height: 757px;
-    top: 293px;
 }
 .cover_title {
-    padding: 165px 50px 50px;
     width: 1100px;
     font-family: Raleway;
+    text-transform: uppercase;
+}
+.title_span {
+    display: block;
 }
     
-.title_span-left {
-    display: block;
+.left {
+    font-family: Raleway;
     font-size: 100px;
     font-weight: 700;
     line-height: 115px;
     letter-spacing: 0.3em;
     text-align: left;
+
 }
-.title_span-center {
-    display: block;
+.center {
     text-align: center;
     font-size: 100px;
     font-weight: 700;
@@ -61,16 +57,38 @@
     letter-spacing: 0.3em;
     
 }
-.title_span-right {
-    display: block;
+.right {
     font-size: 100px;
     font-weight: 700;
     line-height: 100px;
     letter-spacing: 0.6em;
     text-align: right;
-    
 }
-    
+.address {
+    list-style-type: none;
+}
+.cover_decription {
+    display: flex;
+    margin-top: 135px;
+    justify-content: space-between;
+    text-transform: uppercase;
+    align-items: center;
+}
+.cover_decription-text {
+    font-size: 22px;
+    font-weight: 400;
+    word-spacing: 20px;
+}
+.bet-button {
+    padding: 12px 32px 11px 31px;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    }
+
     
     
     
