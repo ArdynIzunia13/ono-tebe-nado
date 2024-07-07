@@ -11,26 +11,25 @@
   </head>
   <body>
     <header class="header">
-      <nav class="header_nav">
-        <ul class="header_nav-list">
-          <li class="header_nav-items">
-        <a class="header_nav-link">главная</a>
+      <nav class="header__menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item_no-bullit">
+        <a class="header__link_active" href="#">главная</a>
          </li> 
-         <li class="header_nav-item">
-        <a class="header_nav-link">посмотреть лоты</a>
+         <li class="header__links-list-item">
+        <a class="header__link" href="#">посмотреть лоты</a>
       </li>
-      <li class="header_nav-item">
-        <a class="header_nav-link">об аукционе</a>
+      <li class="header__links-list-item">
+        <a class="header__link" href="#">об аукционе</a>
       </li>
       </ul>
       </nav>
-        <a class="header_logo">
-        <img class="header_logo-image" alt="логотип"
+        <a class="header__logo">
+        <img class="header__logo-image" alt="логотип"
         src="./images/logo-black.svg">
       </a>
-        </class=>
-        <address>
-          <ul class="address">
+        <address class="address">
+          <ul class="header__address">
            <li>
            <a href="+999 555 5555">+999 555 5555
           </li>
@@ -44,23 +43,26 @@
         </header>
     <main class="main">
       <section class="cover">
-        <h1 class="cover_title">
-        <span  class="title_span left">Оно</span>
-        <span class="title_span center">тебе</span>
-        <span class="title_span right">надо</span>
+        <h1 class="cover__title">
+          <span class="aligned-text">О<span class="letter-spacing-extended">но</span>
+          <span class="aligned-text_center">т<span class="letter-spacing-center">е<span class="no-letter-spacing">бе</span></span>
+          <span class="aligned-text_right"><span class="letter-spacing-extended">н</span>адо</span>
       </h1>
-      <div class="cover_decription">
-        <p class="cover_decription-text">Аукцион вещей, в которые никто не верил</p>
+      <div class="cover__description">
+        <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
         <button class="bet-button" type="button">Сделать ставку</button>
       </div>
       </section>
       <section class="lots">
-        
+        <h2 class="lots__heading">Лоты</h2>
+        <ul class="lots__card-list">
+          <il class="lots__card-list">
+            <a class="card-link" href="#"></a>
+          </il>
+        </ul>
       </section>
       <section class="about"></section>
     </main>      
+  <footer class="footer"></footer>
   </body>
-  <footer class="footer">
-
-  </footer>
 </html>

@@ -1,102 +1,80 @@
 .header {
+    width: 1052px;
+    height: 105px;
     display: flex;
     align-items: center;
-    max-width: 1052px;
     justify-content: space-between;
     margin: 92px 24px 96px 24px;
-
 }
-.header_logo-image {
-    width: 124px;
-    height: 94px;
+.header__menu {
+    margin-left: 26px;
 }
-.header_nav {
-    margin-right: 32px;
-}
-.header_nav-list {
+.header__links-list {
     display: flex;
-    list-style-type: none;
 }
-.header_nav-item {
-    margin-left: 32px;
+.header__links-list-item_no-bullit {
+    list-style-type: none;
+    margin-right: 31px;
+}
+.header__links-list-item {
+    margin-right: 32px;
     list-style: circle;
 }
-.header_nav-items {
-    margin-left: 32px;
-    list-style-type: none;
+.header__address {
+    list-style: none;
+    margin-right: 25px;
+    font-size: 18px;
+}
+.header__link_active{
+    text-decoration: none;
+}
+.header__logo {
+    display: block;
+    width: 148px;
+    margin-right: 184px;
 }
 .cover {
-    background-image: url(../images/cover.jpg);
-    background-size: cover;
+    background: url(../images/cover.jpg);
     padding: 165px 50px 50px;
     color: #fff;
 }
-.cover_title {
-    width: 1100px;
+.cover__title {
+    display: block;
     font-family: Raleway;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0.3em;
     text-transform: uppercase;
 }
-.title_span {
+.aligned-text_center {
     display: block;
-}
-    
-.left {
-    font-family: Raleway;
-    font-size: 100px;
-    font-weight: 700;
-    line-height: 115px;
-    letter-spacing: 0.3em;
-    text-align: left;
-
-}
-.center {
     text-align: center;
-    font-size: 100px;
-    font-weight: 700;
-    line-height: 100px;
-    letter-spacing: 0.3em;
-    
+    letter-spacing: 0.4em;
 }
-.right {
-    font-size: 100px;
-    font-weight: 700;
-    line-height: 100px;
-    letter-spacing: 0.6em;
+.aligned-text_right {
+    display: block;
     text-align: right;
 }
-.address {
-    list-style-type: none;
+ .letter-spacing-extended {
+    letter-spacing: 0.6em;
+ }
+.letter-spacing-center {
+    letter-spacing: 0.3em;
+}   
+.no-letter-spacing {
+    letter-spacing: 0.4em;
 }
-.cover_decription {
+ .cover__description {
     display: flex;
-    margin-top: 135px;
     justify-content: space-between;
-    text-transform: uppercase;
     align-items: center;
-}
-.cover_decription-text {
+    font-family: Raleway;
+    margin-top: 135px;
+ }
+ .cover__description-text {
+    font-family: Raleway;
     font-size: 22px;
     font-weight: 400;
-    word-spacing: 20px;
+    line-height: 28px;
 }
-.bet-button {
-    padding: 12px 32px 11px 31px;
-    font-size: 22px;
-    font-weight: 500;
-    text-align: center;
-    background-color: transparent;
-    color: #fff;
-    border: 1px solid #fff;
-    }
-
-    
-    
-    
-    
-
-
-   
- 
-    
-
- 
