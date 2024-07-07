@@ -77,4 +77,16 @@
     font-size: 22px;
     font-weight: 400;
     line-height: 28px;
+    word-spacing: 15px;
+}
+.bet-button {
+    background-color: transparent;
+    color: #fff;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.83px;
+    border-color: #fff;
+    width: 256px;
+    height: 51px;
 }
