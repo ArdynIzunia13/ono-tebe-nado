@@ -35,7 +35,7 @@
 }
 .cover {
     position: relative;
-    background: url(../images/cover.jpg);
+    background-image: url(../images/cover.jpg);
     background-size: cover;
     background-position: center;
     padding: 165px 50px 50px;
@@ -103,4 +103,19 @@
     border-color: #fff;
     width: 256px;
     height: 51px;
+}
+.lots {
+    margin-top: 179px;
+}
+.lots__heading {
+    margin-bottom: 27px;
+    margin-left: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    text-transform: uppercase;
+}
+.lots__card-list {
+    display: flex;
+    gap: 25px;
 }
