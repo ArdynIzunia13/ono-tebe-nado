@@ -118,4 +118,19 @@
 .lots__card-list {
     display: flex;
     gap: 25px;
+    list-style-type: none;
+}
+.lots__card-list-item {
+    width: 334px;
+    min-height: 563px;
+    flex-grow: 1;
+}
+.card-link {
+    width: 334px;
+    height: 563px;
+}
+.card {
+    height: 100%;
+    padding: 51px 40px 48px 40px;
+
 }
